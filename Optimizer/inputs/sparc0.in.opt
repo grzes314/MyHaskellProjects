@@ -1,0 +1,15 @@
+(
+  ( 0 
+    (CASE (VAR "i_at_0") 
+      (
+        (ARM (1 ) 
+          (DECISION 0 "Found instruction imode")
+        )
+        (ARM (0 ) 
+          (DECISION 0 "Found instruction rmode")
+        )
+      )
+      (DECISION 1 "Did not find an instruction")
+    )
+  )
+)

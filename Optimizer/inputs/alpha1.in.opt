@@ -1,0 +1,15 @@
+(
+  ( 0 
+    (CASE (VAR "mhint_at_0") 
+      (
+        (ARM (0 ) 
+          (DECISION 0 "Found instruction proc")
+        )
+        (ARM (1 ) 
+          (DECISION 0 "Found instruction nonproc")
+        )
+      )
+      (DECISION 1 "Did not find an instruction")
+    )
+  )
+)
